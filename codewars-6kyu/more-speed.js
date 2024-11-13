@@ -14,8 +14,9 @@ const reverseInPlace = (arr) => {
     arr[i] = arr[arr.length - 1 - i];
     arr[arr.length - 1 - i] = temp;
   }
+  return arr;
 };
 
 const test1 = [1, 2, 3, 4];
 const test2 = [1, 2, 3, 4, 5, 6, 7];
-reverseInPlace(test1);
+console.log(reverseInPlace(test1));
