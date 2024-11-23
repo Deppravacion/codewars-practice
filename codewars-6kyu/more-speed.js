@@ -20,4 +20,4 @@ const reverseInPlace = (arr) => {
 const test1 = [1, 2, 3, 4];
 const test2 = [1, 2, 3, 4, 5, 6, 7];
 console.log(reverseInPlace(test1));
-// console.log(reverseInPlace(test2));
+console.log(reverseInPlace(test2));
